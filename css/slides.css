@@ -7155,6 +7155,10 @@ p.remind-43 {
   position: relative;
   display: block;
   transition: 0.25s;
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+  backdrop-filter: blur( 15.5px );
+  -webkit-backdrop-filter: blur( 15.5px );
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   text: #fff;
 }
